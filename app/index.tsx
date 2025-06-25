@@ -5,6 +5,7 @@ import { CameraView, CameraCapturedPicture, useCameraPermissions } from 'expo-ca
 import { LocationObject, PermissionStatus as LocationPermissionStatus, getCurrentPositionAsync, useForegroundPermissions } from 'expo-location';
 import { PermissionStatus as MediaLibraryPermissionStatus, usePermissions as useMediaLibraryPermissions } from 'expo-media-library';
 import React, { useEffect, useRef, useState } from 'react';
+import { router } from 'expo-router';
 import { Button, Image, Platform, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
@@ -47,6 +48,18 @@ export default function ParkScreen() {
       } catch (error) {
         console.error('Failed to take picture:', error);
       }
+    }
+  }
+
+  function navigateToMap() {
+    if (userLocation) {
+      router.push({
+        pathname: '/MapScreen',
+        params: {
+          latitude: userLocation.coords.latitude.toString(),
+          longitude: userLocation.coords.longitude.toString(),
+        },
+      });
     }
   }
 
@@ -94,6 +107,12 @@ export default function ParkScreen() {
                 <Text style={[styles.buttonText, { color: Colors[colorScheme ?? 'light'].text }]}>Retake</Text>
             </TouchableOpacity>
             {/* Add Save button here later */}
+            {userLocation && (
+              <TouchableOpacity style={styles.controlButton} onPress={navigateToMap}>
+                <IconSymbol name="map.fill" size={28} color={Colors[colorScheme ?? 'light'].text} />
+                <Text style={[styles.buttonText, { color: Colors[colorScheme ?? 'light'].text }]}>View Map</Text>
+              </TouchableOpacity>
+            )}
         </View>
       </SafeAreaView>
     );

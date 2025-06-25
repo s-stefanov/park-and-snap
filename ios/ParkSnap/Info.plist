@@ -34,6 +34,32 @@
     </array>
     <key>CFBundleVersion</key>
     <string>1</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>comgooglemaps</string>
+      <string>citymapper</string>
+      <string>uber</string>
+      <string>lyft</string>
+      <string>transit</string>
+      <string>truckmap</string>
+      <string>waze</string>
+      <string>yandexnavi</string>
+      <string>moovit</string>
+      <string>yandextaxi</string>
+      <string>yandexmaps</string>
+      <string>kakaomap</string>
+      <string>tmap</string>
+      <string>szn-mapy</string>
+      <string>mapsme</string>
+      <string>osmandmaps</string>
+      <string>gett</string>
+      <string>nmap</string>
+      <string>dgis</string>
+      <string>lftgpas</string>
+      <string>petalmaps</string>
+      <string>sygic</string>
+      <string>here-route</string>
+    </array>
     <key>LSMinimumSystemVersion</key>
     <string>12.0</string>
     <key>LSRequiresIPhoneOS</key>
@@ -45,20 +71,6 @@
       <key>NSAllowsLocalNetworking</key>
       <true/>
     </dict>
-    <key>NSCameraUsageDescription</key>
-    <string>Allow $(PRODUCT_NAME) to access your camera</string>
-    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-    <string>Allow $(PRODUCT_NAME) to access your location</string>
-    <key>NSLocationAlwaysUsageDescription</key>
-    <string>Allow $(PRODUCT_NAME) to access your location</string>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>Allow $(PRODUCT_NAME) to access your location</string>
-    <key>NSMicrophoneUsageDescription</key>
-    <string>Allow $(PRODUCT_NAME) to access your microphone</string>
-    <key>NSPhotoLibraryAddUsageDescription</key>
-    <string>Allow $(PRODUCT_NAME) to save photos</string>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>Allow $(PRODUCT_NAME) to access your photos</string>
     <key>NSUserActivityTypes</key>
     <array>
       <string>$(PRODUCT_BUNDLE_IDENTIFIER).expo.index_route</string>

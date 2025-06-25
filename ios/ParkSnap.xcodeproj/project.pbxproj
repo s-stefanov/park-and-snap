@@ -9,22 +9,22 @@
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		645F7CCA28C38FBF4D6691F1 /* libPods-ParkSnap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1230F4A2E3BABF20869BC3D5 /* libPods-ParkSnap.a */; };
-		681439487684598204B243CD /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9645AA4281AF30BF9564EDD /* ExpoModulesProvider.swift */; };
+		4C945CB82A9DABB614BEBD4F /* libPods-ParkSnap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4E3A7C78836BC249B2181E /* libPods-ParkSnap.a */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		C0246138CE7C377E0A72D8B1 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 358FB68E3DA1C1F339CFCB17 /* PrivacyInfo.xcprivacy */; };
+		BE207A2CE793ADCAEB16398E /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C7FB09813E2917B443E0B3 /* ExpoModulesProvider.swift */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
+		F549E2EEE3C369895A68D126 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9C9F083DCF127A06BE67A71D /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1230F4A2E3BABF20869BC3D5 /* libPods-ParkSnap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParkSnap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* ParkSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ParkSnap/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ParkSnap/Info.plist; sourceTree = "<group>"; };
-		15913C70F5D492AB14ABE770 /* Pods-ParkSnap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkSnap.release.xcconfig"; path = "Target Support Files/Pods-ParkSnap/Pods-ParkSnap.release.xcconfig"; sourceTree = "<group>"; };
-		358FB68E3DA1C1F339CFCB17 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = ParkSnap/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		7568751A458EAE434DB5DB98 /* Pods-ParkSnap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkSnap.debug.xcconfig"; path = "Target Support Files/Pods-ParkSnap/Pods-ParkSnap.debug.xcconfig"; sourceTree = "<group>"; };
-		A9645AA4281AF30BF9564EDD /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-ParkSnap/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		21C7FB09813E2917B443E0B3 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-ParkSnap/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		4A5A6946B7886BD0EC720C24 /* Pods-ParkSnap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkSnap.debug.xcconfig"; path = "Target Support Files/Pods-ParkSnap/Pods-ParkSnap.debug.xcconfig"; sourceTree = "<group>"; };
+		9C9F083DCF127A06BE67A71D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = ParkSnap/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		9EC37C04B8B1980298733351 /* Pods-ParkSnap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkSnap.release.xcconfig"; path = "Target Support Files/Pods-ParkSnap/Pods-ParkSnap.release.xcconfig"; sourceTree = "<group>"; };
+		9F4E3A7C78836BC249B2181E /* libPods-ParkSnap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParkSnap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = ParkSnap/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				645F7CCA28C38FBF4D6691F1 /* libPods-ParkSnap.a in Frameworks */,
+				4C945CB82A9DABB614BEBD4F /* libPods-ParkSnap.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +53,25 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				358FB68E3DA1C1F339CFCB17 /* PrivacyInfo.xcprivacy */,
+				9C9F083DCF127A06BE67A71D /* PrivacyInfo.xcprivacy */,
+			);
+			name = ParkSnap;
+			sourceTree = "<group>";
+		};
+		237EE708526BAD98556483E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A5A6946B7886BD0EC720C24 /* Pods-ParkSnap.debug.xcconfig */,
+				9EC37C04B8B1980298733351 /* Pods-ParkSnap.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		23A3F7E7AC4AD04A48F42DBD /* ParkSnap */ = {
+			isa = PBXGroup;
+			children = (
+				21C7FB09813E2917B443E0B3 /* ExpoModulesProvider.swift */,
 			);
 			name = ParkSnap;
 			sourceTree = "<group>";
@@ -62,19 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				1230F4A2E3BABF20869BC3D5 /* libPods-ParkSnap.a */,
+				9F4E3A7C78836BC249B2181E /* libPods-ParkSnap.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4E44F14A9C48BBBF2211CC98 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7568751A458EAE434DB5DB98 /* Pods-ParkSnap.debug.xcconfig */,
-				15913C70F5D492AB14ABE770 /* Pods-ParkSnap.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -91,8 +99,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				4E44F14A9C48BBBF2211CC98 /* Pods */,
-				C3FC4CF8353DA4BE822285E7 /* ExpoModulesProviders */,
+				237EE708526BAD98556483E6 /* Pods */,
+				CA3051421823BDAFF2CC6496 /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -116,20 +124,12 @@
 			path = ParkSnap/Supporting;
 			sourceTree = "<group>";
 		};
-		C3FC4CF8353DA4BE822285E7 /* ExpoModulesProviders */ = {
+		CA3051421823BDAFF2CC6496 /* ExpoModulesProviders */ = {
 			isa = PBXGroup;
 			children = (
-				EACC76D35712E8554751E4C5 /* ParkSnap */,
+				23A3F7E7AC4AD04A48F42DBD /* ParkSnap */,
 			);
 			name = ExpoModulesProviders;
-			sourceTree = "<group>";
-		};
-		EACC76D35712E8554751E4C5 /* ParkSnap */ = {
-			isa = PBXGroup;
-			children = (
-				A9645AA4281AF30BF9564EDD /* ExpoModulesProvider.swift */,
-			);
-			name = ParkSnap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,13 +140,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ParkSnap" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				0EAD5909A5702F13C8430C2C /* [Expo] Configure project */,
+				10B9C19D7ACF28C612AF882D /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				93EFA444390E07CB8CAE6016 /* [CP] Embed Pods Frameworks */,
+				27A275DA84A69D61F3C6CE23 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,7 +196,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				C0246138CE7C377E0A72D8B1 /* PrivacyInfo.xcprivacy in Resources */,
+				F549E2EEE3C369895A68D126 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +240,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0EAD5909A5702F13C8430C2C /* [Expo] Configure project */ = {
+		10B9C19D7ACF28C612AF882D /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -258,6 +258,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-ParkSnap/expo-configure-project.sh\"\n";
+		};
+		27A275DA84A69D61F3C6CE23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParkSnap/Pods-ParkSnap-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParkSnap/Pods-ParkSnap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -278,6 +296,7 @@
 				"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/boost/boost_privacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/glog/glog_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/react-native-maps/ReactNativeMapsPrivacy.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -293,28 +312,11 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SDWebImage.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/boost_privacy.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/glog_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ReactNativeMapsPrivacy.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParkSnap/Pods-ParkSnap-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		93EFA444390E07CB8CAE6016 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ParkSnap/Pods-ParkSnap-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParkSnap/Pods-ParkSnap-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -325,7 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				681439487684598204B243CD /* ExpoModulesProvider.swift in Sources */,
+				BE207A2CE793ADCAEB16398E /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +336,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7568751A458EAE434DB5DB98 /* Pods-ParkSnap.debug.xcconfig */;
+			baseConfigurationReference = 4A5A6946B7886BD0EC720C24 /* Pods-ParkSnap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -370,7 +372,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15913C70F5D492AB14ABE770 /* Pods-ParkSnap.release.xcconfig */;
+			baseConfigurationReference = 9EC37C04B8B1980298733351 /* Pods-ParkSnap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
