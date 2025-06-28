@@ -2,14 +2,6 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-# Park and Snap
-
-Park & Snap е приложение за лесно и бързо намиране на автомобила след паркиране.
-
-## План
-
-![wireframe](wireframe.png)
-
 ## Get started
 
 1. Install dependencies
